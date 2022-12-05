@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body style="display: none;">
+    <div class="logo"></div>
+
+    <speedometer class="active">
+        <div class="main" style="margin-top: -20px;">
+            <div class="km">
+                <span>0</span><small>KM/H</small>
+            </div>
+            <div class="light">
+                <img src="assets/img/headlight.svg">
+            </div>
+        </div>
+        <div class="info">
+            <div class="item">D</div>
+        </div>
+        <div class="belt">
+            <div class="blur"></div>
+            <img src="assets/img/belt-disable.png">
+        </div>
+
+        <div class="healthBackground" id="fuel">
+            <div class="middleIcon" style="background: rgb(12, 0, 17) url(assets/img/fuel.png);"></div>
+            <svg height="37px" width="37px">
+                <circle class="fuelDisplay" cx="19" cy="19" r="16"/>
+            </svg>
+        </div>
+        <div class="healthBackground" id="motor">
+            <div class="middleIcon" style="background: rgb(12, 0, 17) url(assets/img/motor.png);"></div>
+            <svg height="37px" width="37px">
+                <circle class="motorDisplay" cx="19" cy="19" r="16"/>
+            </svg>
+        </div>
+       
+    </speedometer>
+    <div class="container">
+        <div class="healthBackground" id="vida">
+            <div class="middleIcon iconvida" style="background: rgb(12, 0, 17) url(assets/img/vida.png);"></div>
+            <svg height="37px" width="37px">
+                <circle class="vidaDisplay" cx="19" cy="19" r="16"/>
+            </svg>
+        </div>
+        <div class="healthBackground" id="colete">
+            <div class="middleIcon iconcolete"  style="background: rgb(12, 0, 17) url(assets/img/colete.png);"></div>
+            <svg height="37px" width="37px">
+                <circle class="coleteDisplay" cx="19" cy="19" r="16"/>
+            </svg>
+        </div>
+        <div class="healthBackground" id="fome">
+            <div class="middleIcon iconfome" style="background: rgb(12, 0, 17) url(assets/img/fome.png);"></div>
+            <svg height="37px" width="37px">
+                <circle class="fomeDisplay" cx="19" cy="19" r="16"/>
+            </svg>
+        </div>
+        <div class="healthBackground" id="sede">
+            <div class="middleIcon iconsede" style="background: rgb(12, 0, 17) url(assets/img/sede.png);"></div>
+            <svg height="37px" width="37px">
+                <circle class="sedeDisplay" cx="19" cy="19" r="16"/>
+            </svg>
+        </div>
+        <div class="healthBackground" id="voz">
+            <svg height="37px" width="37px" id="svgvoz">
+                <circle class="vozDisplay" cx="19" cy="19" r="16"/>
+            </svg>
+        </div>
+    </div>
+    <footer2>
+        <footer>
+            <span id="day">3 DE DEZEMBRO - <span id="hora">18.55</span></span>
+        </footer>
+    </footer2>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/saferInnerHTML@1/dist/saferInnerHTML.polyfills.min.js"></script>	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/font.js"></script>
+</body>
+</html>

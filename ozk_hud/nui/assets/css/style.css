@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,200&display=swap');
+@font-face {
+    font-family: aquire;
+    src: url('../fonts/AquireBold-8Ma60.otf');
+  }
+html {
+    background-color: transparent;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    user-select: none;
+    padding: 10px 10px;    
+}
+
+* {
+    user-select: none;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 40px;
+    height: 210px;
+    position: absolute;
+    right: 9px;
+    bottom: 6px;
+
+}
+
+p{
+    color:white;
+    font-size: 13px;
+    text-align: center;
+    font-family: aquire;
+    margin: 0px 2px;
+    transition: all 1.5s;
+}
+
+.logo{
+    background-size: cover;
+    background-size: 90px;
+    background-position-x: 50% ;
+    background-repeat: no-repeat;
+    background-image: url("https://media.discordapp.net/attachments/803786052048519228/853768199903379546/ozark-white-200px.png");
+    position: relative;
+    width: 100px;
+    height: 100px;
+    right: 15px;
+    float: right;
+    top: -5px;
+	animation: skew 3s infinite;
+	transform: skew(10deg);
+	animation-direction: alternate;
+}
+
+logo img {
+    width: 120px;
+}
+
+@keyframes skew {
+		0% {
+			transform: skew(3deg, 3deg);
+		}
+		100% {
+			transform: skew(-3deg, -3deg);
+		}
+	}
+
+footer2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 380px;
+    font-family: 'Poppins';
+    height: 120px;
+}
+
+footer2 footer {
+    position: absolute;
+    right: -90px;
+    bottom: 0px;
+    width: 100%;   
+    font-family: 'Poppins';
+    white-space: nowrap;
+	
+    
+}
+
+footer2 footer span {
+    position: relative;
+    opacity: .9;
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Poppins';
+    top: 1px;
+    margin-left: 190px;
+    text-shadow: 1px 2px 2px rgba(255, 255, 255, 0.459);
+    background: rgb(12, 0, 17);
+    border-radius: 5px;
+    padding-inline: 10px;
+	box-shadow: 1px 1px 2px 1px rgba(12, 0, 17, 0.9);
+}
+
+
+.healthBackground {
+	width: 36px;
+	height: 36px;
+    position: relative;
+	margin-bottom: 0px;
+    margin-left: 5px;
+	margin-top: 6px;
+	border-radius: 100%;
+	border: 4px solid rgb(12, 0, 17);
+    box-shadow: 1px 1px 4px 2px rgba(12, 0, 17, 0.9);
+}
+
+
+.vidaDisplay {
+	stroke: #f2374d;
+	stroke-width: 4;
+	margin-right: 0px;
+	margin-top: 0px;
+	fill: transparent;
+	position: absolute;
+	stroke-dasharray: 100;
+	stroke-dashoffset: 50;
+
+	-webkit-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+
+	transition: all 2s;
+}
+.coleteDisplay {
+	stroke: #a67ccd;
+	stroke-width: 4;
+	margin-right: 0px;
+	margin-top: 0px;
+	fill: transparent;
+	position: absolute;
+	stroke-dasharray: 100;
+	stroke-dashoffset: 50;
+
+	-webkit-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+
+	transition: all 2s;
+}
+.fomeDisplay {
+	stroke: #ff7e00;
+	stroke-width: 4;
+	margin-right: 0px;
+	margin-top: 0px;
+	fill: transparent;
+	position: absolute;
+	stroke-dasharray: 100;
+	stroke-dashoffset: 50;
+
+	-webkit-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+
+	transition: all 2s;
+}
+.sedeDisplay {
+	stroke: #4e77e0;
+	stroke-width: 4;
+	margin-right: 0px;
+	margin-top: 0px;
+	fill: transparent;
+	position: absolute;
+	stroke-dasharray: 100;
+	stroke-dashoffset: 50;
+
+	-webkit-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+
+	transition: all 2s;
+}
+.vozDisplay {
+    stroke: #00e472;
+	stroke-width: 4;
+	margin-right: 0px;
+	margin-top: 0px;
+	fill: transparent;
+	position: absolute;
+	stroke-dasharray: 100;
+	stroke-dashoffset: 50;
+	-webkit-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+
+	transition: all 2s;
+}
+
+#fuel{
+    left: -6px;
+    top: 28px;
+    position: absolute;
+}
+#motor{
+    left: -6px;
+    bottom: 37px;
+    position: absolute;
+}
+.fuelDisplay {
+	stroke: #ff7e00;
+	stroke-width: 4;
+	margin-right: 0px;
+	margin-top: 0px;
+	fill: transparent;
+	position: absolute;
+	stroke-dasharray: 100;
+	-webkit-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	transition: all 2s;
+}
+
+
+.motorDisplay {
+	stroke: #a67ccd;
+	stroke-width: 4;
+	margin-right: 0px;
+	margin-top: 0px;
+	fill: transparent;
+	position: absolute;
+	stroke-dasharray: 100;
+	-webkit-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+
+	transition: all 2s;
+}
+
+.middleIcon {
+	color: #999;
+	width: 30px;
+	height: 30px;
+	padding: 0px 0 0;
+    margin-top: -2px;
+    margin-left: -1px;
+	background: rgb(12, 0, 17);
+	position: absolute;
+	border-radius: 100%;
+	text-align: center;
+
+	background-size: 80% !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+}
+#voz{
+    background-size: 80% !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+    background: rgb(12, 0, 17) ;
+    background-image: url('../img/voz.png') !important;
+    transition: all 2s;
+    width: 36px;
+	height: 36px;
+}
+#svgvoz {
+	margin-top: -4px;
+	margin-left: -5px;
+	position: absolute;
+}
+svg {
+	margin-top: -4px;
+	margin-left: -4.65px;
+	position: absolute;
+}
+.healthDisplay {
+	stroke: rgb(255, 255, 255);
+	stroke-width: 4;
+	margin-right: -0px;
+	margin-top: 0px;
+	fill: transparent;
+	position: absolute;
+	stroke-dasharray: 100;
+	stroke-dashoffset: 50;
+	-webkit-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	transition: all 2s;
+}
+
+speedometer {
+    position: absolute;
+    display: flex;
+    right: -60px;
+    bottom: -4px;
+    width: 180px;
+    height: 180px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+    transform: translate(-50%,0) scale(.7);
+    transition: all 1.5s;
+    background: url('../img/fundo.png');
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 0px ;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px 1px rgba(12, 0, 17, 0.9);
+}
+
+speedometer.active {
+    margin-right: -800px;
+}
+
+speedometer .km {
+    font-size: 60px;
+    margin-top: 13px;
+    opacity: .9;
+}
+
+speedometer .km span {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: aquire;
+}
+
+speedometer .km small {
+    position: absolute;
+    bottom: 50px;
+    right: 70px;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: aquire;
+}
+
+speedometer .info {
+    position: absolute;
+    display: flex;
+    bottom: 5px;
+    right: 0px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+speedometer .info .item {
+    display: flex;
+    padding: 2px 10px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+speedometer .info .active {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    border-radius: 100%;
+    transition: all 0.3s;
+}
+
+speedometer .light {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    transform: translate(-50%,-50%);
+}
+
+speedometer .light img {
+    max-width: 15px;
+}
+.imgactive{
+    animation: blink 1.5s infinite ease-in-out;
+}
+.activeborder{
+    box-shadow: 1px 1px 5px 3px rgb(255, 255, 255);
+}
+.hide{
+    display: none;
+}
+speedometer .belt {
+    position: absolute;
+    display: flex;
+    opacity: .9;
+    top: 25px;
+    right: 51px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%,0%);
+    animation: blink 2s infinite ease-in-out;
+}
+
+speedometer .belt .blur {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgba(19, 0, 27, 0.493);
+}
+
+speedometer .belt img {
+    max-width: 25px;
+    animation: blink 1s infinite;
+}
+
+@keyframes glow {
+	40% {
+        text-shadow: 0 0 2px rgb(242, 179, 255);
+    }
+}
+
+@keyframes blink {
+	0% {
+        opacity: 0.11;
+	}
+	100% {
+        opacity: 0.9;
+	}
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
