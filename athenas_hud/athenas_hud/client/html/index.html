@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mast.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body style="display: none;">
+    <div class="logo"></div>
+    <logo>
+        
+    </logo>
+    <logo2>
+        <span class="mast__text js-spanize"></span>
+        <!-- <span class="mast__text js-spanize">@instagram</span> -->
+    </logo2>
+    <speedometer class="active">
+        <div class="main" style="margin-top: -20px;">
+            <div class="km">
+                <span>0</span><small>KM/H</small>
+            </div>
+            <div class="light">
+                <img src="assets/img/headlight.svg">
+            </div>
+        </div>
+        <div class="info">
+            <div class="item">D</div>
+        </div>
+        <div class="belt">
+            <div class="blur"></div>
+            <img src="assets/img/belt.svg">
+        </div>
+        <div class="fuelBar">
+            <img src="assets/img/fuel.svg">
+            <div class="bar">
+                <div class="fuelFill"></div>
+            </div>
+        </div>
+        <div class="engineBar">
+            <img src="assets/img/engine.svg">
+            <div class="bar">
+                <div class="engineFill"></div>
+            </div>
+        </div>
+    </speedometer>
+    <status>   
+        <needs>
+            <life class="statusItem" style="margin-right: -23px;">
+                <span id="vida"><p>0%</p></span>
+                <img id="imgvida" width="18" height="18" src="assets/img/life.png" style="left: 37px;">
+                <div class="itemFill fill-heart" style="background-image: linear-gradient(270deg, #0dffae, #2696ff);left: 0;transform: scaleX(-1) !important;"></div>
+            </life>
+        </needs>
+    </status>
+    <status2>
+        <needs2>
+            <shield class="statusItem" style="margin-right: -23px;"> 
+                <span id="colete"><p>0%</p></span>     
+                <img width="18" height="18" src="assets/img/shield.png" style="left: 38px;">
+                <div class="itemFill fill-shield" style="background-image: linear-gradient(270deg, #c100d3, #7d00a3);left: 0;transform: scaleX(-1) !important;"></div>
+            </shield>
+        </needs2>
+    </status2>
+    <footer2>
+        <footer>
+            <span id="day">3 DE DEZEMBRO - <span id="hora">18.55</span></span>
+        </footer>
+    </footer2>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/saferInnerHTML@1/dist/saferInnerHTML.polyfills.min.js"></script>	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/font.js"></script>
+</body>
+</html>
